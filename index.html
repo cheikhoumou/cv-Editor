@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Game</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/madia.css">
+    <link rel="stylesheet" href="css/scroll.css">
+    <style>
+        body
+        {
+            background-color: rgb(37, 255, 200);
+        }
+        #play {
+            font-family: cursive;
+            padding: 12px;
+            width: 120px;
+            font-size: 35px;
+            height: 45px;
+            line-height: 35px;
+            color: cornsilk;
+            text-decoration: none;
+            border-radius: 20px;
+            background-color: darkmagenta;
+            transition: all 1s;
+            border: 3px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="body2">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+        <img src="icon.png" id="anim">
+        <h1 style="color: #fff10f; font-size: 40px; border: 2px solid #000;">Array Game</h1>
+        <br>
+        <a id="play" href="home.html">
+            play
+        </a>
+        <br>
+       <a href="https://free.facebook.com/people/CheikhMou-Atigh/100009595207115?"><img src="f.svg" width="50"></a>
+       <a href="https://www.youtube.com/channel/UC6gx9crABRkkdwjZothFyuQ?view_as=subscriber"><img src="y.svg" width="50"></a>
+       <a href="https://wa.me/22220523820"><img src="w.svg" width="50"></a>
+    </center></div>
+    <script>
+        window.play.style = "display: none;";
+        function playArray() {
+            window.play.style = "display: block;";
+        }
+        setTimeout(playArray, 1000 * 2);
+    </script>
+</body>
+</html>
