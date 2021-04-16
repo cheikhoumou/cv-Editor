@@ -1,4 +1,6 @@
+
 localStorage.setItem("b", '<a href="home.html"><input type="button" value="إبدأ التعلم" ></a>');
+
 // function 
 function tsgil(){
   var code = [
@@ -106,3 +108,49 @@ function tsgil2(){
 //     alert( " مرحبا  يا  " + localStorage.getItem("Name") + " يسعدنا هتمامك بالبرمجة وإذا أردت شراء إحدى الدورات يمكنك إرسال طلب إلينا بذلك ودفع مباشرة عبر وسائل الدفع المتوفرة وحينها ستحصل على كود تفعيل الدورة المناسبة لك  " );
 //  }
 //  setTimeout(masseg, 10000 *  7);
+
+
+function blogger(){
+    localStorage.setItem("b3", '<a href="blogger.html"><input type="button" value="إبدأ التعلم" ></a>');
+    var code = [
+        window.code1.value,
+        window.code2.value,
+        window.code3.value];
+    switch ( code[2] ){
+
+        case '022169LL9':
+            window.b3.style = "display: none;";
+            window.code3.style = "display:none;";
+            var ccc =  "<br>"+ localStorage.getItem("b3");
+            window.x3.innerHTML = "تم التسجيل " + ccc;
+            localStorage.setItem("pin3",'24561789d');
+        break; // code 1
+              
+        case '115ccxx00':
+            window.b3.style = "display: none;";
+            window.code3.style = "display:none;";
+            var ccc =  "<br>"+ localStorage.getItem("b3");
+            window.x3.innerHTML = "تم التسجيل " + ccc;
+            localStorage.setItem("pin3",'24561789d');
+        break; // code 2
+    
+        case '9845421XH':
+            window.b3.style = "display: none;";
+            window.code3.style = "display:none;";
+            var ccc =  "<br>"+ localStorage.getItem("b3");
+            window.x3.innerHTML = "تم التسجيل " + ccc;
+            localStorage.setItem("pin3",'24561789d');
+        break; // code 3
+    
+        case '3P200450k':
+            window.b3.style = "display: none;";
+            window.code3.style = "display:none;";
+            var ccc =  "<br>"+ localStorage.getItem("b3");
+            window.x3.innerHTML = "تم التسجيل " + ccc;
+            localStorage.setItem("pin3",'24561789d');
+        break;
+        default:
+            alert(' خطأ كود التفعيل غير صحيح ❌ ');
+        break;
+    }  
+}
