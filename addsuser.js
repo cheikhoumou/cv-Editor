@@ -5,7 +5,7 @@ code:
 document.getElementById('boxnew').innerHTML += '';
 
 */
-
+console.log('good');
 // user 1
 
 
