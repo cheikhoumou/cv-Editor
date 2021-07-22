@@ -1,2 +1,2 @@
 console.log('conaction');
-window.tame.style = 'display:none';
+// window.tame.style = 'display:none';
